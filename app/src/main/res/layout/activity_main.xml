@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="site.gemus.fancyview.MainActivity">
+
+    <Button
+        android:id="@+id/button_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NormalDraw"
+        android:textAllCaps="false"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"/>
+
+    <Button
+        android:id="@+id/button_ryb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RYBDraw"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/button_line"
+        android:layout_width="match_parent"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:text="LineDraw"/>
+
+    <Button
+        android:id="@+id/button_rotation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="RotationDraw"/>
+</LinearLayout>
