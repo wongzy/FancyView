@@ -1,8 +1,8 @@
 #### 效果
-[![2017_12_16_18_43_39.gif](https://i.loli.net/2017/12/17/5a36001794838.gif)](https://i.loli.net/2017/12/17/5a36001794838.gif)
-[![2017_12_16_18_44_20.gif](https://i.loli.net/2017/12/17/5a36001f2996a.gif)](https://i.loli.net/2017/12/17/5a36001f2996a.gif)
-[![2017_12_16_18_44_38.gif](https://i.loli.net/2017/12/17/5a360028e0b88.gif)](https://i.loli.net/2017/12/17/5a360028e0b88.gif)
-[![2017_12_16_18_45_02.gif](https://i.loli.net/2017/12/17/5a36002ccbe94.gif)](https://i.loli.net/2017/12/17/5a36002ccbe94.gif)
+[![1.gif](https://i.loli.net/2017/12/18/5a3756ad4bd35.gif)](https://i.loli.net/2017/12/18/5a3756ad4bd35.gif)
+[![2.gif](https://i.loli.net/2017/12/18/5a3756b0696de.gif)](https://i.loli.net/2017/12/18/5a3756b0696de.gif)
+[![3.gif](https://i.loli.net/2017/12/18/5a3756b30e64e.gif)](https://i.loli.net/2017/12/18/5a3756b30e64e.gif)
+[![4.gif](https://i.loli.net/2017/12/18/5a3756b561685.gif)](https://i.loli.net/2017/12/18/5a3756b561685.gif)
 #### 使用
 ```
 compile 'site.gemus:openingstartanimation:1.0.0' //在gradle中导入项目
