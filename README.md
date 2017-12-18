@@ -34,4 +34,5 @@ OpeningStartAnimation openingStartAnimation = new OpeningStartAnimation.Builder(
                 })
                 .create();
 ```
+> 具体使用方法可见： http://blog.csdn.net/qq_33487412/article/details/78832116
 > 目前共有四种动画可供选择，欢迎来一起制作出更多的开屏动画效果！
