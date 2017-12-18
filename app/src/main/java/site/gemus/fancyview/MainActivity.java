@@ -1,15 +1,19 @@
 package site.gemus.fancyview;
 
+import android.graphics.Canvas;
+import android.graphics.drawable.Drawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import site.gemus.openingstartanimation.DrawStrategy;
 import site.gemus.openingstartanimation.LineDrawStrategy;
 import site.gemus.openingstartanimation.NormalDrawStrategy;
 import site.gemus.openingstartanimation.OpeningStartAnimation;
 import site.gemus.openingstartanimation.RedYellowBlueDrawStrategy;
 import site.gemus.openingstartanimation.RotationDrawStrategy;
+import site.gemus.openingstartanimation.WidthAndHeightOfView;
 
 /**
  *
@@ -29,6 +33,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         button2.setOnClickListener(this);
         button3.setOnClickListener(this);
         button4.setOnClickListener(this);
+
     }
 
     @Override
