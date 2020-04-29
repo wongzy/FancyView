@@ -9,6 +9,8 @@ import android.graphics.RectF;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 
+import site.gemus.openingstartanimation.utils.BitmapUtils;
+
 /**
  * @author Jackdow
  * @version 1.0
@@ -41,8 +43,7 @@ public class NormalDrawStrategy implements DrawStrategy {
         int width = widthAndHeightOfView.getWidth();
         int height = widthAndHeightOfView.getHeight();
         Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG);
-        BitmapDrawable bitmapDrawable = (BitmapDrawable) icon;
-        Bitmap bitmap = bitmapDrawable.getBitmap();
+        Bitmap bitmap = BitmapUtils.drawableToBitmap(icon);
 
         int bitmapWidth = bitmap.getWidth();
         int bitmapHeight = bitmap.getHeight();

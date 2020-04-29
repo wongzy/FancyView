@@ -10,6 +10,8 @@ import android.graphics.RectF;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 
+import site.gemus.openingstartanimation.utils.BitmapUtils;
+
 /**
  * @author Jackdow
  * @version 1.0
@@ -38,7 +40,7 @@ public class RotationDrawStrategy implements DrawStrategy {
     @Override
     public void drawAppIcon(Canvas canvas, float fraction, Drawable icon, int colorOfIcon,
                             WidthAndHeightOfView widthAndHeightOfView) {
-        drawIcon(canvas, (int) (fraction * 540), ((BitmapDrawable) icon).getBitmap(),
+        drawIcon(canvas, (int) (fraction * 540), BitmapUtils.drawableToBitmap(icon),
                 widthAndHeightOfView.getWidth(), widthAndHeightOfView.getHeight());
     }
 

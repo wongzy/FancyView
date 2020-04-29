@@ -9,6 +9,8 @@ import android.graphics.RectF;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 
+import site.gemus.openingstartanimation.utils.BitmapUtils;
+
 /**
  * @author Jackdow
  * @version 1.0
@@ -53,7 +55,7 @@ public class LineDrawStrategy implements DrawStrategy {
                             WidthAndHeightOfView widthAndHeightOfView) {
         int centerX = widthAndHeightOfView.getWidth() / 2;
         int centerY = widthAndHeightOfView.getHeight() / 2;
-        Bitmap bitmap = ((BitmapDrawable) icon).getBitmap();
+        Bitmap bitmap = BitmapUtils.drawableToBitmap(icon);
         Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG);
         paint.setColor(colorOfIcon);
         paint.setStrokeWidth(3);

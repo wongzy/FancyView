@@ -1,13 +1,17 @@
 package site.gemus.openingstartanimation;
 
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Matrix;
 import android.graphics.Paint;
 import android.graphics.Path;
+import android.graphics.PixelFormat;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
+
+import static site.gemus.openingstartanimation.utils.BitmapUtils.drawableToBitmap;
 
 /**
  * @author Jackdow
@@ -33,7 +37,7 @@ class RYBDrawStrategyStateTwo implements RYBDrawStrategyStateInterface{
         canvas.restore();
         canvas.save();
         Path path = new Path();
-        Bitmap bitmap = ((BitmapDrawable) drawable).getBitmap();
+        Bitmap bitmap = drawableToBitmap(drawable);
         Matrix matrix = new Matrix();
         matrix.postScale(1.7f, 1.7f, centerX, centerY);
         canvas.concat(matrix);
